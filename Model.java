@@ -1,12 +1,12 @@
 import java.util.Random;
 
-public class Mapa
+public class Model
 {
 	private boolean[] mapa = new boolean[36];
 	private Random losuj = new Random();
 	private int miny = 0;
 	
-	public Mapa() 
+	public Model() 
 	{
 		losujMape();
 	}
